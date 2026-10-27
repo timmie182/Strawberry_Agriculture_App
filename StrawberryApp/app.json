@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "plugins": [
+      "react-native-fast-tflite",
+      "expo-asset"
+    ],
+    "name": "StrawberryApp",
+    "slug": "StrawberryApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "strawberryapp",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "CAMERA"
+      ],
+      "package": "com.timmie182.StrawberryApp"
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "experiments": {
+      "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f2d9716d-1cc2-42f0-a11c-9c468f5e1cbc"
+      }
+    }
+  }
+}
