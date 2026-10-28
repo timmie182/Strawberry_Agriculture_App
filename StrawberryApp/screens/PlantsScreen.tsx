@@ -24,8 +24,8 @@ import DiseaseScanner from '../components/DiseaseScanner';
 // ==== Cấu hình Cloudinary ====
 // Thay 2 giá trị này bằng Cloud name và Upload preset (dạng Unsigned) của bạn
 // Lấy tại: https://console.cloudinary.com -> Dashboard (cloud name) và Settings > Upload (upload preset)
-const CLOUDINARY_CLOUD_NAME = 'cf68poo7';
-const CLOUDINARY_UPLOAD_PRESET = 'plant_photos_unsigned';
+const CLOUDINARY_CLOUD_NAME = 'Your_Cloud_Name_Here';
+const CLOUDINARY_UPLOAD_PRESET = 'Your_Upload_Preset_Here';
 
 interface PlantWithPhoto extends Plant {
   photoUrl?: string | null;
