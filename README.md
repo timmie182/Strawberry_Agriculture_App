@@ -16,8 +16,6 @@ Hệ thống hỗ trợ chăm sóc vườn dâu, kết hợp **ứng dụng Reac
 | Kết nối | Supabase Anonymous Auth, tự tạo/tham gia thiết bị theo `device_code`, cập nhật dữ liệu qua Realtime |
 | ESP32 | Đọc cảm biến, điều khiển relay quạt/đèn, cấu hình Wi-Fi qua captive portal, watchdog và cập nhật firmware qua Wi-Fi |
 
-**Phạm vi hiện tại:** giao diện máy bơm, lịch và cảnh báo còn thiếu phần schema/firmware tương ứng trong repo. Firmware có chế độ `auto` cho quạt/đèn, nhưng màn hình điều khiển hiện ghi lệnh với `mode: 'manual'` và chưa có công tắc chọn chế độ tự động.
-
 ## Kiến trúc
 
 ```mermaid
