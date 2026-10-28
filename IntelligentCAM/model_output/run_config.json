@@ -1,0 +1,38 @@
+{
+  "command": "train",
+  "split_dir": "/kaggle/working/strawberry_split",
+  "output_dir": "/kaggle/working/strawberry_output",
+  "image_size": 224,
+  "batch_size": 32,
+  "head_epochs": 10,
+  "finetune_epochs": 15,
+  "head_lr": 0.001,
+  "finetune_lr": 1e-05,
+  "finetune_fraction": 0.3,
+  "patience": 5,
+  "seed": 42,
+  "threads": 4,
+  "weights": "imagenet",
+  "no_class_weights": false,
+  "no_augmentation": false,
+  "no_tflite": false,
+  "skip_integrity_check": false,
+  "nondeterministic": false,
+  "tensorflow_version": "2.20.0",
+  "python_version": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "split_fingerprint": "52e016193ab5b14ad2cb29809387f6ff625a49213075edc1426199db03038e96",
+  "gpu_devices": [
+    "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')",
+    "PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')"
+  ],
+  "selection_rule": "minimum validation cross-entropy across head and fine-tuning checkpoints",
+  "test_used_for_selection": false,
+  "package_versions": {
+    "tensorflow": "2.20.0",
+    "keras": "3.13.2",
+    "numpy": "2.0.2",
+    "scikit-learn": "1.6.1",
+    "Pillow": "11.3.0",
+    "matplotlib": "3.10.0"
+  }
+}

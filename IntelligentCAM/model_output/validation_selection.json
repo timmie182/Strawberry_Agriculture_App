@@ -1,0 +1,25 @@
+{
+  "candidates": [
+    {
+      "stage": "head",
+      "weights": "/kaggle/working/strawberry_output/checkpoints/best_head.weights.h5",
+      "val_loss": 0.1187969520688057,
+      "val_accuracy": 0.965753436088562,
+      "epochs_run": 10
+    },
+    {
+      "stage": "finetune",
+      "weights": "/kaggle/working/strawberry_output/checkpoints/best_finetune.weights.h5",
+      "val_loss": 0.07046987116336823,
+      "val_accuracy": 0.9771689772605896,
+      "epochs_run": 15
+    }
+  ],
+  "selected": {
+    "stage": "finetune",
+    "weights": "/kaggle/working/strawberry_output/checkpoints/best_finetune.weights.h5",
+    "val_loss": 0.07046987116336823,
+    "val_accuracy": 0.9771689772605896,
+    "epochs_run": 15
+  }
+}

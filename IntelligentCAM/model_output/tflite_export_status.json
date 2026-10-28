@@ -1,0 +1,24 @@
+{
+  "fp32": {
+    "success": true,
+    "file": "strawberry_mobilenetv3_fp32.tflite",
+    "size_mb": 11.924144,
+    "input_dtype": "float32",
+    "input_pixel_range": [
+      0,
+      255
+    ],
+    "evaluated_on_test": false
+  },
+  "fp16": {
+    "success": true,
+    "file": "strawberry_mobilenetv3_fp16.tflite",
+    "size_mb": 6.004052,
+    "input_dtype": "float32",
+    "input_pixel_range": [
+      0,
+      255
+    ],
+    "evaluated_on_test": false
+  }
+}

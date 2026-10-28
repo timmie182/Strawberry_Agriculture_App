@@ -1,0 +1,63 @@
+{
+  "angular_leafspot": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 65.0
+  },
+  "anthracnose_fruit_rot": {
+    "precision": 0.7368421052631579,
+    "recall": 1.0,
+    "f1-score": 0.8484848484848485,
+    "support": 14.0
+  },
+  "blossom_blight": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 31.0
+  },
+  "gray_mold": {
+    "precision": 0.984375,
+    "recall": 0.8873239436619719,
+    "f1-score": 0.9333333333333333,
+    "support": 71.0
+  },
+  "healthy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 68.0
+  },
+  "leaf_spot": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 86.0
+  },
+  "powdery_mildew_fruit": {
+    "precision": 0.8181818181818182,
+    "recall": 0.9,
+    "f1-score": 0.8571428571428571,
+    "support": 20.0
+  },
+  "powdery_mildew_leaf": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 80.0
+  },
+  "accuracy": 0.9770114942528736,
+  "macro avg": {
+    "precision": 0.942424865430622,
+    "recall": 0.9734154929577465,
+    "f1-score": 0.9548701298701299,
+    "support": 435.0
+  },
+  "weighted avg": {
+    "precision": 0.9806208065225761,
+    "recall": 0.9770114942528736,
+    "f1-score": 0.9776742797432452,
+    "support": 435.0
+  }
+}

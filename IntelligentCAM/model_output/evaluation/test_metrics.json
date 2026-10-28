@@ -1,0 +1,13 @@
+{
+  "n_test_images": 435,
+  "accuracy": 0.9770114942528736,
+  "balanced_accuracy": 0.9734154929577465,
+  "macro_precision": 0.942424865430622,
+  "macro_recall": 0.9734154929577465,
+  "macro_f1": 0.9548701298701299,
+  "weighted_f1": 0.9776742797432452,
+  "matthews_correlation_coefficient": 0.9731139993602079,
+  "cross_entropy": 0.05678385040200917,
+  "macro_roc_auc_ovr": 0.9994807356086751,
+  "macro_average_precision_ovr": 0.9927899192700159
+}

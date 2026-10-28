@@ -1,0 +1,9 @@
+﻿class_name,source_image_files,total_unique_valid,train,val,test
+angular_leafspot,435,435,305,65,65
+anthracnose_fruit_rot,97,97,68,15,14
+blossom_blight,208,208,146,31,31
+gray_mold,477,477,334,72,71
+healthy,456,456,319,69,68
+leaf_spot,615,574,402,86,86
+powdery_mildew_fruit,135,135,95,20,20
+powdery_mildew_leaf,533,533,373,80,80

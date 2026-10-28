@@ -1,0 +1,16 @@
+{
+  "architecture": "MobileNetV3Large alpha=1.0, non-minimalistic; custom GAP + Dropout + Dense(8) head",
+  "image_size": 224,
+  "channels": 3,
+  "color_order": "RGB",
+  "resize": "bilinear, stretch to square (same as training); correct EXIF orientation before resize",
+  "input_dtype": "float32",
+  "input_range": [
+    0,
+    255
+  ],
+  "normalization_in_model": true,
+  "divide_by_255_outside_model": false,
+  "output": "8 softmax scores in class_names.json order; scores are not calibrated certainty",
+  "scope": "one label per image; not object detection or multi-label diagnosis"
+}

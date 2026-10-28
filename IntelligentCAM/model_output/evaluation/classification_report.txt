@@ -1,0 +1,14 @@
+                       precision    recall  f1-score   support
+
+     angular_leafspot     1.0000    1.0000    1.0000        65
+anthracnose_fruit_rot     0.7368    1.0000    0.8485        14
+       blossom_blight     1.0000    1.0000    1.0000        31
+            gray_mold     0.9844    0.8873    0.9333        71
+              healthy     1.0000    1.0000    1.0000        68
+            leaf_spot     1.0000    1.0000    1.0000        86
+ powdery_mildew_fruit     0.8182    0.9000    0.8571        20
+  powdery_mildew_leaf     1.0000    1.0000    1.0000        80
+
+             accuracy                         0.9770       435
+            macro avg     0.9424    0.9734    0.9549       435
+         weighted avg     0.9806    0.9770    0.9777       435

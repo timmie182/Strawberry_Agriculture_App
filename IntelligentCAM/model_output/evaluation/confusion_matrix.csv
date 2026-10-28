@@ -1,0 +1,9 @@
+﻿true_class,angular_leafspot,anthracnose_fruit_rot,blossom_blight,gray_mold,healthy,leaf_spot,powdery_mildew_fruit,powdery_mildew_leaf
+angular_leafspot,65,0,0,0,0,0,0,0
+anthracnose_fruit_rot,0,14,0,0,0,0,0,0
+blossom_blight,0,0,31,0,0,0,0,0
+gray_mold,0,4,0,63,0,0,4,0
+healthy,0,0,0,0,68,0,0,0
+leaf_spot,0,0,0,0,0,86,0,0
+powdery_mildew_fruit,0,1,0,1,0,0,18,0
+powdery_mildew_leaf,0,0,0,0,0,0,0,80

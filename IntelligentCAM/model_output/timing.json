@@ -1,0 +1,5 @@
+{
+  "elapsed_train_and_evaluation_seconds": 1059.3637833819998,
+  "test_inference_and_reporting_seconds": 5.248074002000067,
+  "note": "Host timings include data loading/reporting; NOT mobile inference latency."
+}

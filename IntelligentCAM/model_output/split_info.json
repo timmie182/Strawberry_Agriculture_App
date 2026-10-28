@@ -1,0 +1,36 @@
+{
+  "complete": true,
+  "version": 1,
+  "data_root": "/kaggle/input/datasets/phthongturing/dataset-dautay/strawberry_by_class",
+  "seed": 42,
+  "requested_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "group_aware": false,
+  "class_names": [
+    "angular_leafspot",
+    "anthracnose_fruit_rot",
+    "blossom_blight",
+    "gray_mold",
+    "healthy",
+    "leaf_spot",
+    "powdery_mildew_fruit",
+    "powdery_mildew_leaf"
+  ],
+  "total_original_image_files": 2956,
+  "total_unique_valid_images": 2915,
+  "invalid_images_removed": 0,
+  "exact_pixel_duplicates_removed": 41,
+  "ignored_files": 0,
+  "dataset_fingerprint": "52e016193ab5b14ad2cb29809387f6ff625a49213075edc1426199db03038e96",
+  "manifest_sha256": "6abc5720b48bcca4167ffc7a849d8d2b2a9424eb6d6a19ac10957c7567e16b61",
+  "image_storage": "lossless RGB PNG, EXIF-corrected, original resolution",
+  "actual_counts": {
+    "train": 2042,
+    "val": 438,
+    "test": 435
+  },
+  "limitations": "Exact pixel deduplication is not near-duplicate detection. Without groups.csv, related photos/crops may still cross splits."
+}

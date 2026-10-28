@@ -1,0 +1,9 @@
+﻿class_name,roc_auc_ovr,average_precision_ovr
+angular_leafspot,1.0,1.0
+anthracnose_fruit_rot,0.999321343739396,0.981547619047619
+blossom_blight,1.0,0.9999999999999999
+gray_mold,0.9984522519733787,0.9920574493982226
+healthy,1.0,1.0
+leaf_spot,1.0,1.0
+powdery_mildew_fruit,0.9980722891566265,0.9687142857142859
+powdery_mildew_leaf,1.0,1.0
