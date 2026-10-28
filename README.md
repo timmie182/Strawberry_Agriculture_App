@@ -1,4 +1,4 @@
-# 🍓 Strawberry Agriculture App
+# Strawberry Agriculture App
 
 Hệ thống hỗ trợ chăm sóc vườn dâu, kết hợp **ứng dụng React Native/Expo**, **thiết bị ESP32**, **Supabase** và **AI MobileNetV3-Large**. Dự án hướng đến việc theo dõi môi trường, điều khiển thiết bị và phân loại hình ảnh bệnh trên cây dâu ngay trên điện thoại.
 
@@ -217,8 +217,5 @@ Các điểm dưới đây được đối chiếu giữa mã app, firmware và 
 - [Slide ứng dụng di động](Report/silde_mobile.pdf)
 - [Báo cáo phân loại theo từng lớp](IntelligentCAM/model_output/evaluation/classification_report.txt)
 
-## Đóng góp và giấy phép
-
-Có thể mở issue để mô tả lỗi hoặc đề xuất cải tiến, kèm thành phần liên quan, cách tái hiện và log đã loại bỏ thông tin bí mật. Khi bổ sung tính năng, cập nhật đồng thời app, SQL và firmware nếu thay đổi giao tiếp giữa các thành phần.
-
-Repository hiện chưa có file `LICENSE`; cần trao đổi với chủ sở hữu về quyền sử dụng và phân phối lại.
+## Video DEMO sản phẩm và tính năng
+https://www.youtube.com/playlist?list=PLWY9NlAltIqg
